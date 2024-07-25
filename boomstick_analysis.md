@@ -1,4 +1,4 @@
-[DRG Analysis](index.md) > **Boomstick Analysis**
+[DRG Analysis](README.md) > **Boomstick Analysis**
 
 > This is also available as [a post on r/technicaldrg](https://www.reddit.com/r/technicaldrg/comments/1c4txtr/build_breakdown_scouts_juryrigged_boomstick/).
 
@@ -40,7 +40,7 @@ In summary: Double Barrel specializes in close range solo brawling. Shaped Shell
 
 A generalist overclock that provides ammo so you can take both damage upgrades (**21313**). It has plenty of both ammo and damage, and is good in both solo and team play. The reload speed buff is also nice. I will use this as a reference point for comparing other overclock builds. 
 
-###Jumbo Shells (unstable overclock)
+### Jumbo Shells (unstable overclock)
 
 Another generalist, providing damage so you can take both ammo upgrades (**11213**). This build performs extremely similar to the Compact Shells build, but with a smidge more ammo, a slower reload, and it's concentrated into fewer pellets. The lower pellet count gives more variance, which means it's easier to get a lucky hit far away, though its range is still much shorter than Shaped Shells. Of course, the variance can be a double-edged sword, causing you to miss an ignite or stun at range. 
 
@@ -121,4 +121,4 @@ On a slightly less useful note, here's some trivia about the crosshair:
 - [Boomstick spreadsheet with build stats](https://docs.google.com/spreadsheets/d/16mr6P2AJKAoqR1qOSxI8nI72ZHuTxBBA/edit?usp=sharing&ouid=105930869095728533846&rtpof=true&sd=true), by LittleBobbyTables and MountAndDewMe. Three of the strongest builds are highlighted.
 - There are plenty of modded teamplay videos on youtube (often deep dives or EDDs) and since the boomstick is a fairly frequent scout secondary, these are good demonstrations of boomstick teamplay. [Here](https://youtu.be/x32WEOyQcis) is a recent example.
 
-[Back to DRG Analysis](index.md)
+[Back to DRG Analysis](README.md)

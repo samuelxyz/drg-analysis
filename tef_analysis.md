@@ -1,4 +1,4 @@
-[DRG Analysis](index.md) > **TEF Analysis**
+[DRG Analysis](README.md) > **TEF Analysis**
 
 > This is also available as [a post on r/technicaldrg](https://www.reddit.com/r/technicaldrg/comments/1c4tuan/thermal_exhaust_feedback_a_monster_in_the_third/).
 
@@ -195,4 +195,4 @@ Here's a comparison table (hopefully my math is right):
 | 21222 AISE    | 243       | **173**     | Hitting 1x weakpoint                |
 | 23221 Hipster | **346**   | **202**     | Hitting 1x weakpoint, reload cancel |
 
-[Back to DRG Analysis](index.md)
+[Back to DRG Analysis](README.md)

@@ -1,4 +1,4 @@
-[DRG Analysis](index.md) > **Conductive Thermals**
+[DRG Analysis](README.md) > **Conductive Thermals**
 
 # Basics
 
@@ -34,4 +34,4 @@ From the graph, it's clear that t3b (faster cooling) gives better sustained outp
 
 In tier 1, the choice is less clear. The total output after 10 seconds is slightly higher with t1b, but not by much, and it only decisively pulls ahead if you take t3a and shoot for longer than 7 seconds. You can kill a high-value target slightly faster in ideal circumstances with t1a (rate of fire), but taking t1b (less heat per shot) makes that kill more consistent and more flexible. You're less likely to overheat in combat with t1b, and your shots are spread over a higher duty cycle so it's a bit easier to time those bursts to just barely avoid overheating. I think it's down to your personal preference.
 
-[Back to DRG Analysis](index.md)
+[Back to DRG Analysis](README.md)

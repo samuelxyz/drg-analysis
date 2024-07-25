@@ -1,4 +1,4 @@
-[DRG Analysis](index.md) > **Burst DPS**
+[DRG Analysis](README.md) > **Burst DPS**
 
 I got curious and decided to figure out which weapon has the highest finite burst DPS per magazine.
 
@@ -25,4 +25,4 @@ Winners:
 
 ![alt text](img/drg_burst_damage.png)
 
-[Back to DRG Analysis](index.md)
+[Back to DRG Analysis](README.md)
