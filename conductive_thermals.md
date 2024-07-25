@@ -1,10 +1,12 @@
 [DRG Analysis](README.md) > **Conductive Thermals**
 
-# Basics
+# Conductive Thermals
+
+## Basics
 
 If you didn't know, Conductive Thermals is an overclock for Scout's Drak-25 Plasma Carbine that applies two status effects to whatever it hits: x0.95 to the enemy's burn/freeze/douse/thaw temperatures, and -5% resistance to burn/frost/electric damage. The temperature effect also sets the burn and freeze temperatures to +/-100 if they were originally larger, which makes Glyphid Dreadnoughts ignitable. Both effects can stack when shooting the enemy multiple times - the temperature effect stacks up to 30 times and the damage effect up to 20 times (but is currently bugged to have no cap - see below). In exchange, the gun overheats faster and does less damage per shot. These are very significant downsides when you consider that the base Drak already overheats kinda fast and doesn't do much DPS.
 
-# Conductive Thermals is bugged
+## Conductive Thermals is bugged
 
 I have to start out with a confession: Conductive Thermals applies two stacks per shot when taking the tier 4 plasma splash upgrade: once from the direct hit and once from the splash. This is in no small part due to yours truly - during the experimental phase of season 5, I noticed that the temperature buff was applying twice but not the damage buff. It was already clear at the time that Conductive Thermals Drak was not a super strong weapon, and needed all the help it could get. So, I posted a bug report in the official experimental channels where I showed a clip of the drak hitting armor and applying only the temperature buff. GSG "fixed" this, so plasma splash would apply both effects. The direct hit also applies both effects, so now taking plasma splash lets you apply stacks twice as fast. Which is quite relevant because time-to-kill improves dramatically, and the stacks expire after 10 seconds.
 
@@ -12,7 +14,7 @@ An unrelated but very synergistic bug is that in patch 4 of season 5, the number
 
 Somewhat less spectacularly but still very usefully, the temperature status effect makes it much easier to freeze goo bombers and Naedocyte Breeders.
 
-# Damage analysis
+## Damage analysis
 
 ![alt text](img/ct_damage.png)
 
@@ -22,7 +24,7 @@ Despite Plasma Splash doing only 2.5 fire damage per shot, the uncapped double s
 
 The curves for the electric upgrade have varying opacity to reflect how the electricity has a random chance to apply on each shot.
 
-# Build comparison
+## Build comparison
 
 This graph shows how many shots you can get out if you try as hard as possible (stay above 50% heat whenever possible to take advantage of the rate of fire buff from t5b).
 

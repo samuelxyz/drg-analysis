@@ -1,8 +1,10 @@
 [DRG Analysis](README.md) > **TEF Analysis**
 
+# TEF Analysis
+
 > This is also available as [a post on r/technicaldrg](https://www.reddit.com/r/technicaldrg/comments/1c4tuan/thermal_exhaust_feedback_a_monster_in_the_third/).
 
-# Introduction
+## Introduction
 
 Thermal Exhaust Feedback (TEF) is by far the strongest overclock for the Drak-25 Plasma Carbine. It offers incredible damage, ignition, electric slow/DOT, and decent accuracy when built with 3x112 - pretty much all Scout could ask for in a primary (except stun/fear - and to get armor break you have to give up the powerful electricity upgrade. Alas, we live in an imperfect world). It's not a particularly hot take to say that TEF is Scout's strongest primary option in solo modded play. Meanwhile, for modded teamplay it's a strong alternative to the M1000 Classic.
 
@@ -12,11 +14,11 @@ How does it accomplish this? TEF adds increasingly large bonus Fire damage and H
 
 The [Weapon Heat Crosshair mod](https://mod.io/g/drg/m/weapon-heat-crosshair) helps immensely with managing your heat level. It also makes it easy to estimate where important numbers like 60% and 80% heat are, with just a glance. I like to make it quite big on my screen, like a full 5 cm in diameter, to make it easier to distinguish between the highest heat percentages. But do whatever works for you.
 
-# Build
+## Build
 
 Summary: Start with **32112**. If you play a few games and find that you want more ammo, you can move to **31112**.
 
-## Tier 1: Rate of Fire / Less Heat per Shot / Higher Velocity
+### Tier 1: Rate of Fire / Less Heat per Shot / Higher Velocity
 
 - **Rate of fire** is fine, giving better burst DPS and letting you heat up sooner, in exchange for requiring a bit more timing precision to avoid overheating. If option 3 didn't exist, this would be the next best choice.
 - **Less heat per shot** is a bad match for TEF - it allows you to get longer bursts, but also makes it painfully slow to heat up into the zone where your DPS is actually good. I don't recommend this.
@@ -24,13 +26,13 @@ Summary: Start with **32112**. If you play a few games and find that you want mo
 
 I strongly recommend option 3: **faster projectiles**.
 
-## Tier 2: Ammo / Damage
+### Tier 2: Ammo / Damage
 
 As we will see later, ammo doesn't lose many significant "breakpoints" and doesn't actually do much less DPS. However, the base ammo pool should already be plenty if you shoot judiciously (a good habit to learn for Scout in teams), and a bit extra DPS is always nice.
 
 Start with **Damage**, but feel free to switch to **Ammo** if you find the ammo a bit tight.
 
-## Tier 3: Accuracy / Faster Cooling / Hot Feet
+### Tier 3: Accuracy / Faster Cooling / Hot Feet
 
 - **Accuracy** decreases your spread by 70% both vertically and horizontally, resulting in a 91% smaller spread area. This significantly increases your effective range. I don't know what the base spread value is, but targets like stingtail and menace weakpoints become difficult to hit beyond 10-15 meters without this upgrade.
 - **Faster cooling** is a tradeoff. You get better sustain DPS, but it becomes harder to keep the weapon hot, especially if you want to quickly reposition or snap a shot from your secondary.
@@ -38,7 +40,7 @@ Start with **Damage**, but feel free to switch to **Ammo** if you find the ammo 
 
 I strongly recommend option 1: **accuracy**.
 
-## Tier 4: Electricity / Plasma Splash / Armor Break
+### Tier 4: Electricity / Plasma Splash / Armor Break
 
 - **Electricity** inflicts 135 total electric damage over 6 seconds while applying an 80% slow. This is a powerful effect - the total damage is quite hefty, and the slow is extremely useful against problem enemies like Bulks and Grabbers. The chance to apply is 15% per shot, not 20% as the equipment terminal says.
   
@@ -54,14 +56,14 @@ I strongly recommend option 1: **accuracy**.
 
 I recommend option 1: **electricity**.
 
-## Tier 5: Manual Heat Dump / Faster RoF when Hot
+### Tier 5: Manual Heat Dump / Faster RoF when Hot
 
 - **Manual heat dump** lets you trigger an overheat at any time, in exchange for the overheat lasting shorter than normal. You don't want to ever overheat with TEF, because the overclock increases overheat time, and also overheating will drop you at the bottom of the heat curve where you have to heat up again to start getting good DPS. It's always better to just release the trigger and let the weapon cool to like 80% before shooting again.
 - **Faster RoF when hot** is some nice extra DPS. It also gives a fun bit of audio feedback to let you know when you're approaching the toasty TEF zone.
 
 Take option 2: **Faster RoF when hot**.
 
-# Analysis & Usage
+## Analysis & Usage
 
 TEF is a weird weapon to analyze. It's tricky to think about breakpoints because it's a high rate-of-fire, low damage-per-shot weapon whose ROF and damage *also* change as you hold down the trigger. Plus, it runs into RNG effects such as spread, armor break, electricity, and On Fire damage procs. Thus, the analysis is by nature going to be a little analog and a little fuzzy. Nevertheless, by crunching some numbers and plotting some curves, we can gain useful insights into the weapon's performance and usage.
 
@@ -84,7 +86,7 @@ The plots all share the same x-axis, which is the heat level *as shown by the we
 | 30th        | 90% heat (+12 fire damage from TEF)     |
 | 38th        | Overheat                                |
 
-## Breakpoints (Graphs 1 and 2)
+### Breakpoints (Graphs 1 and 2)
 
 Breakpoints (or burstpoints?) are tricky with TEF due to the previously mentioned random factors. In this analysis, I've calculated them numerically for Haz6p4 using the same Python script that generated the graphs. 
 
@@ -104,11 +106,11 @@ Notes on particular breakpoints:
 - By taking T2 ammo, the main breakpoint you lose is the 4-player Hazard 6 spitballer "one-mag". However, as long as you land most of the weakpoint shots, the baller will be finished off by electricity and On Fire ticks. If you want it dead immediately, it takes about 1 extra second to get another burst out at 90% heat.
 - For breakpoints toward the left of the graph, like spitballers/grabbers/wardens, they need you to hit almost all your shots or you won't kill the enemy in one heat cycle. As mentioned in the previous bullet, missing the one-mag will only lose you ~1 second TTK, because you can finish the enemy with a second burst at 90% heat. So it's not terrible. Starting from a hot weapon, and shooting two bursts from 70%, will be more consistent than one burst from 0%.
 
-## Efficiency (Graph 3)
+### Efficiency (Graph 3)
 
 The third plot shows average damage per shot in a burst. You can think of this as a measure of ammo efficiency - staying at high heat (85%+) will let you squeeze out the maximum damage from your ammo, while dipping down to 60% or lower will give more flexibility and ease of use. The amount of ammo "savings", based on the graph, looks to be roughly comparable to taking the ammo mod vs no upgrade.
 
-## DPS (Graph 4)
+### DPS (Graph 4)
 
 The last plot shows the DPS in a single burst as well as in sustained fire (repeated bursts including cooling time). Two other popular DPS primaries are shown for comparison. Note that I'm showing weakpoint bonuses for the competitors, which TEF doesn't have, while TEF's unique bonuses against fire-vulnerable enemies are not shown. Perfect accuracy and zero overkilling are assumed (which means the Hipster stats are a bit optimistic compared to AISE, while TEF is somewhere in the middle in terms of realism).
 
@@ -118,7 +120,7 @@ The other notable finding from this graph is that despite TEF's performance jump
 
 The green curve is the *only* thing in this entire graph series that shows TEF's performance at one instant, as opposed to over an entire burst. 
 
-## Bonus: All Possible Bursts
+### Bonus: All Possible Bursts
 
 ![alt text](img/tef_31112_all_bursts.png)
 
@@ -128,14 +130,14 @@ The green curve is the *only* thing in this entire graph series that shows TEF's
 
 This extra plot shows the damage done by every possible burst, as defined by starting and ending heat percentage. You can also see which bursts hit various breakpoints. Again, it's insane how quickly things die when your weapon is hot. By comparing the graphs, notice that the damage and ammo builds only tend to differ by 1 or sometimes 2 shots for most HVTs.
 
-## Quirks
+### Quirks
 
 Some testing has revealed a few extra things about TEF that the graphs didn't:
 
 - Only the base drak part of the damage counts toward breaking weakpoints. The fire portion of the damage, which is often half or more of the total, will get weakpoint bonuses without breaking the weakpoint. Volatile Bullets bulldog has very similar behavior, dealing massive damage to Bulk Detonators while not immediately popping their blisters. This likewise makes TEF a decent source of damage against breakable weakpoints, especially if you stay at high heat and/or take the ammo mod. Do be careful though, because it's still easy to pop Goo Bomber and Menace weakpoints before they ignite, which means your gunner will have a harder time VBing them. If your goal is ignition, aim for the body.
 - The bonus fire damage does not count toward breaking heavy armor. TEF feels pretty bad against armored enemies with t4a, and this goes some distance toward explaining why. It's not the end of the world, but it sure would be nice to have an instant answer to stingtails and similar enemies. In solo, 12233 Double Barrel boomstick will absolutely delete them in one click. Or, you can use Shaped Shells boomstick with tier 4 armor break, which works great in teams too.
 
-# Summary and Key Insights
+## Summary and Key Insights
 
 - Shoot in bursts while keeping the weapon hot.
 - Because of the time to heat up, TEF rewards somewhat longer sequences of shooting rather than grapple-hopping around to pop only one or two enemies at a time. That, plus the lack of stun/fear, makes it a bit less safe to use than the M1000, but in return, it hits harder and dishes out plenty of utility.
@@ -150,16 +152,16 @@ Some testing has revealed a few extra things about TEF that the graphs didn't:
 
 PS: I couldn't figure out where to best put this note, but if you do happen to overheat, you can start shooting again at the _beginning_ of Scout's "slap gun with the other hand" animation - you don't have to wait for the end of the animation. 
 
-# Python script
+## Python script
 
 The code I used to generate the graphs is provided [here](https://gist.github.com/samuelxyz/f3f857f53f3c7bc8cb50f96220310801). If you want to analyze other builds, or add/tweak/fix anything about the graphs, this will hopefully make it easy to do so.
 
 If you don't have a Python environment set up, you can still run this in an online service such as [Google Colab](https://colab.research.google.com). 
 
 The first two non-commented lines allow you to change (1) the build and (2) the amount of heat that the calculation will stop all bursts at. (The latter is so you can account for having skill issue like an actual human, and not firing right until the last possible shot. However, the result seems to be about the same whether you stop at 99% or 93%.)
-# Comment responses
+## Comment responses
 
-> ## What secondary/nades do you recommend for this?
+> ### What secondary/nades do you recommend for this?
 
 TEF works well with just about any standard scout loadout. The Boomstick and the Boltshark are the preferred secondaries in modded games due to their utility and quick application, while Zhukovs mostly just provide a source of close range DPS which is not considered as valuable. Boomstick and Boltshark both provide a quick source of stun, which can help fill in for TEF's lack of it. 
 
@@ -172,7 +174,7 @@ TEF works well with just about any standard scout loadout. The Boomstick and the
 
 **Common grenade options** are IFGs and Cryos, which basically work the same as with any other loadout. Pheromones are also very strong, but less common in teams because they seem to have a stigma of being too powerful. (Lol)
 
-> ## Thoughts on the particle accelerator oc? It has been my personal favorite for the drak
+> ### Thoughts on the particle accelerator oc? It has been my personal favorite for the drak
 
 Good question, thanks for asking!
 
