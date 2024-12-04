@@ -9,3 +9,4 @@ A collection of various analyses for the game Deep Rock Galactic.
 - [What weapon has the highest burst damage?](burst_dps.md)
 - [Conductive Thermals](conductive_thermals.md)
 - [Movement speed scaling](movespeed.md)
+- [Cryo Cannon](cryo_cannon.md)
