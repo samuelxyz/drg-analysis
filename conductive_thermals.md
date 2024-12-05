@@ -27,15 +27,15 @@ Here's a graph comparing damage values for various drak builds. The curves for t
 
 ![alt text](img/ct_damage.png)
 
-Conductive Thermals really takes a while to build up DPS, and spends a long time ramping up even with the double application from plasma splash. For sniping high-value targets (usually Scout's job) it's way worse than TEF, since TEF is able to sustain high DPS when switching targets whereas CT must build up stacks again each time. This tends to remove Scout's ability to do his normal job and relegates him to a status effect dispenser on large tanky targets. Fortunately, with the two behaviors mentioned above, CT does make the class effective and fun to play in this role as long as the high-value killing and can be filled by someone else.
+Conductive Thermals really takes a while to build up DPS, and spends a long time ramping up even with the double application from plasma splash. For sniping high-value targets (usually Scout's job) it's way worse than TEF, since TEF is able to sustain high DPS when switching targets whereas CT must build up stacks again each time. This tends to remove Scout's ability to do his normal job and relegates him to a status effect dispenser on large tanky targets. Fortunately, with the two behaviors mentioned above, CT does make the class effective and fun to play in this role as long as the high-value killing and can be filled by someone else. (You can kinda cope by sniping them with bolts, but that's really not ideal.)
 
-Despite Plasma Splash doing only 2.5 fire damage per shot, the uncapped double stack application makes it quickly come to dominate the weapon's DPS if you shoot more than one burst. Eventually it will also start being able to compete with TEF, though only on that one target.
+Despite Plasma Splash doing only 2.5 fire damage per shot, the uncapped double stack application makes it quickly come to dominate the weapon's DPS if you shoot more than one burst. Eventually it will also start being able to compete with and surpass TEF, though only on that one target.
 
 Somewhat less spectacularly but still very usefully, the temperature status effect makes it much easier to freeze goo bombers and Naedocyte Breeders.
 
 ## Build comparison
 
-This graph shows how many shots you can get out if you try as hard as possible (stay above 50% heat whenever possible to take advantage of the rate of fire buff from t5b).
+This graph shows how many shots you can get out if you try as hard as possible (stay above 50% heat whenever possible to take advantage of the rate of fire buff from t5b). The bonus multiplier for burn/frost/electric damage is also shown on the right side assuming each shot procs two copies of the effect (both direct hit and plasma splash).
 
 ![alt text](img/ct_sustain.png)
 
@@ -44,5 +44,25 @@ Large targets are not particularly hard to hit, so you might as well lean into t
 From the graph, it's clear that t3b (faster cooling) gives better sustained output than t3a (accuracy) assuming you don't miss. This is not surprising.
 
 In tier 1, the choice is less clear. The total output after 10 seconds is slightly higher with t1b, but not by much, and it only decisively pulls ahead if you take t3a and shoot for longer than 7 seconds. You can kill a high-value target slightly faster in ideal circumstances with t1a (rate of fire), but taking t1b (less heat per shot) makes that kill more consistent and more flexible. You're less likely to overheat in combat with t1b, and your shots are spread over a higher duty cycle so it's a bit easier to time those bursts to just barely avoid overheating. I think it's down to your personal preference.
+
+## Fire and taser bolts
+
+Earlier, I mentioned that a common stategy is to pair CT with fire and taser bolts. Alternatively, you could use the boomstick, or a teammate's weapon.
+
+The following graph shows the accumulated damage done when you apply various bolts and then start applying conductive thermals with the same strategy as in the previous section. The damage the drak does while you're applying the stacks is listed separately so it's easier to add together whatever combination of taser/firebolt effects you want.
+
+I only included the 1x222 build. Initially I also included 2x222, but the results overlapped so closely with 1x222 that I decided they were redundant. (They were closer together than the blue and yellow lines on this graph.)
+
+As you can see, the effectiveness stops curving upward after 10 seconds because the effect stacks begin to wear off. Additionally, note that firebolts last only 6 seconds while I assume the bug keeps burning for the whole graph time. Fire bolts do no damage, only heat, so the entire damage value comes from the enemy being on fire. Taser bolts last 15 seconds if you take the tier 5 upgrade. You can probably sneak in extra bolts while the drak is cooling, after reloading with Born Ready.
+
+![](img/ct_bolts.png)
+
+A few lessons we can learn from this:
+* What you do in the first few seconds - whether you shoot bolts and then start shooting CT, or do it in the other order - doesn't matter much because the first few seconds are a pretty small proportion of total damage, at least against high health bosses. What matters most is just getting that CT stack count up to a high number. Though, I will note that you get more value out of each bolt by holding them back until you've already accumulated a few CT stacks. You can think of that as skipping ahead in the graph instead of starting at the origin.
+* Using two electric bolts on the same enemy gives a lot more value than spreading them between two different enemies. This is because the electric arc is substantially stronger than each individual bolt. However, it might be overkill for non-boss enemies. For reference, a Dreadnought Twin has 7650 health on h5p4 and a Bulk has 6000. Also I've heard that sometimes shooting two tasers can have glitches like the beam or the electricity of one of them mysteriously failing to apply.
+
+As a bonus, here are a few more things added to the graph:
+
+![](img/ct_bolts_extra.png)
 
 [Back to DRG Analysis](README.md)
