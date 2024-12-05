@@ -25,6 +25,10 @@ On the other hand, the fact that so much of the weapon's power is tied to Cold R
 
 ## Analysis
 
+### Freezing power
+
+![](img/cryo_burst.png)
+
 First we have a graph comparing three quite different Cryo Cannon builds:
 * 11132 Improved Thermal Efficiency (ITE), a clean build that is essentially the basic cryo cannon built to take advantage of Cold Radiance. This is the standard build for Snowball and Ice Spear as well.
 * 32232 Tuned Cooler, which is built for a high freezing rate. People seem to use different builds for Tuned Cooler but I think this is one of the stronger ones.
@@ -34,13 +38,13 @@ The graph shows the steps caused by the cryo cannon's rate of fire so we can tel
 
 As you can see in the graph, grunts freeze extremely quickly with all three builds when you point the direct stream at them. However, grunts all get instantly frozen by Cold Radiance even when you aren't pointing the stream at them, so their exact freezing speed is basically a non-issue. The only time you would care is if you're trying to freeze grunts at range, but grunts at range are not an urgently threatening target.
 
-Mactera Spawn and Tri-Jaws are more threatening targets. Pointing the direct stream of our Tuned Cooler build at a mactera will freeze it 0.038 seconds faster than Cold Radiance - at best, and not counting any difference in spinup time between the builds. If you were already shooting, then you'll get a Cold Radiance activation earlier, which would wipe out that advantage completely. So the real benefit of Tuned Cooler seems to be that it freezes very large enemies faster (which tend to be the least urgently threatening enemies due to their slowness) and freezes bugs faster when they're outside of Cold Radiance range. In exchange, Tuned Cooler has a long spinup and significantly less ammo efficiency. Whether this tradeoff is worthwhile is up to you, but it seems the popular opinion is that it's not worth it. I tend to agree. 
+Mactera Spawn and Tri-Jaws are more threatening targets. Pointing the direct stream of our Tuned Cooler build at a mactera will freeze it 0.038 seconds faster than Cold Radiance - starting from zero, and not counting any difference in spinup time between the builds. If you were already shooting, then you'll get a Cold Radiance activation earlier, which would wipe out that advantage completely. So the real benefit of Tuned Cooler seems to be that it freezes very large enemies faster (which tend to be the least urgently threatening enemies due to their slowness) and freezes bugs faster when they're outside of Cold Radiance range. In exchange, Tuned Cooler has a long spinup and significantly less ammo efficiency. Whether this tradeoff is worthwhile is up to you, but it seems the popular opinion is that it's not worth it. I tend to agree. 
 
 I also want to add that upgrading the freezing power has diminishing returns because pretty much every enemy of concern freezes quickly enough already. Once it's frozen, the threat is removed so that's basically like a kill. So upgrading freezing power any further is like upgrading a DPS weapon from 900 DPS to 1000 - it already kills everything fast enough for the difference to be academic. You might as well take ammo and mag upgrades instead.
 
 I included Ice Storm because it's a special case where the overclock decreases freezing power, making the weapon even more dependent on Cold Radiance (because Cold Radiance doesn't get decreased). The Ice Storm build also takes a rate of fire increase which adds even more DPS, but makes it even more punishing ammo-wise.
 
-![](img/cryo_burst.png)
+### Uptime
 
 Just for fun, next is a comparison of how long your "magazine" lasts for each build. I added breakpoints for bigger enemies, but in practice:
 * uptime matters less because you want to freeze large bugs, and more because you want to maintain that bubble of Cold Radiance safety during a swarm
@@ -49,6 +53,8 @@ Just for fun, next is a comparison of how long your "magazine" lasts for each bu
 Also this graph does include spinup time, so if you look closely you'll see that the first Cold Radiance activation is later for Tuned Cooler.
 
 ![](img/cryo_sustain.png)
+
+### Crystal Nucleation
 
 I have not analyzed Crystal Nucleation since that overclock is much more complex mathematically. Notably, with Crystal Nucleation it is actually good to take at least one freezing power upgrade because each one *doubles* the cold application rate of the overclock's signature ice trails, and that actually does make a notable difference in effectiveness when I use it. It allows you to use the trails as your main cold source, reserving Cold Radiance for when you need a power boost or for panic mode. It also allows you to switch away from a "hold m1" playstyle and use the weapon in shorter bursts, which I like.
 

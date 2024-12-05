@@ -2,6 +2,8 @@
 
 # Power Attack
 
+![](img/power_attack.png)
+
 Here's a graph showing why the damage upgrade is the best for the Power Attack:
 * Damage actually has a bigger lethal radius against grunts than the radius upgrade.
 * Damage is the only way for a power attack to reliably save you from a Slasher. Regular power attack can't kill one, so you have to try to roll the 50% stun chance which feels terrible.
@@ -13,7 +15,5 @@ Here's a graph showing why the damage upgrade is the best for the Power Attack:
 There is an argument for taking recharge on scout to power attack the wall more often and mine minerals that way. I can see that, but I personally still take damage.
 
 Health values shown here are for Haz 4 and above. These enemies use the common scaling, so they do not get tankier with player count or standard modded hazards of 6+.
-
-![](img/power_attack.png)
 
 [Back to DRG Analysis](README.md)

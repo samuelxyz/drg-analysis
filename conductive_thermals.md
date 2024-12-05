@@ -65,4 +65,6 @@ As a bonus, here are a few more things added to the graph:
 
 ![](img/ct_bolts_extra.png)
 
+*Ice Storm's magazine runs out after about 13 seconds but who cares
+
 [Back to DRG Analysis](README.md)
