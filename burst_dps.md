@@ -7,13 +7,13 @@ I got curious and decided to figure out which weapon has the highest finite burs
 Rules:
 
 - DPS must be finite (cannot take 0 time)
-- Burst ends when reloading or out of ammo, or overheated
+- Burst ends when reloading or out of ammo (Rate of fire delay is included after every shot, including the last shot), or overheated.
 - No resistances, no weaknesses, and 1x weakpoint counted
-- No extra damage over time counted (burning, electrocution, corrosion etc)
+- No extra damage over time counted (burning, electrocution, corrosion etc) except leadburster
 - Projectile weapons assumed to hit instantly
 - No shots miss except with leadburster
-- Leadburster includes time taken to shoot all its bullets
-- Reasonably standard build used even if there is a theoretically higher DPS one (for example, Overdrive Booster could take t1 damage but usually doesn't)
+- Leadburster includes time taken to shoot all its bullets and do all its damage
+- Reasonably standard build used even if there is a theoretically higher DPS one (for example, Overdrive Booster could take t1 damage/t3 mag but usually doesn't)
 - If something isn't on here, it's probably lower DPS
 
 Winners:
