@@ -15,13 +15,13 @@ There are several ways to categorize enemies in DRG. Some common terms in the co
 
 It is not clear what criteria should be used to distinguish between these groups. Some regard all especially threatening enemies as high-value targets, including enemies that are difficult to kill, such has shellbacks and menaces. Others believe that "high value" should mean the enemy poses a high threat but is easy to kill, thus offering a high rate of return on effort spent to target them. Thus, all tankier enemies would be excluded. But then, what category should these enemies be placed in?
 
-In popular commentary, it is popular to consider eliminating "high-value targets" (often without clarifying the aforementioned confusion) as the Scout's job. Due to the tendency of scout loadouts to have limited AOE and total ammo but relatively long range, there is a motivation to spend that ammo on enemies where it will be most effective. Some are best directly shot with the primary weapon, whereas for other enemies it can be better to use cryo bolts, or to use the boomstick to ignite the enemy for Volatile Bullets. This distinction provides a rough dividing line that can be helpful as a starting point for thinking about enemy classification.
+In popular commentary, it is common to consider eliminating "high-value targets" (often without clarifying the aforementioned confusion) as the Scout's job. Due to the tendency of scout loadouts to have limited AOE and total ammo but relatively long range, there is a motivation to focus on enemies with the highest impact. Some are best directly shot with the primary weapon, whereas for tankier enemies it can be better to use cryo bolts, or to use the boomstick to ignite the enemy for Volatile Bullets. This distinction provides a rough dividing line that can be helpful as a starting point for thinking about enemy classification.
 
 ![](img/HVT_compass.png)
 
-In this meme, I present a method of ranking enemies along two cartesian axes describing (1) how threatening the enemy is and (2) how easy the enemy is to kill. Thus, the popular categories of trash, large single targets, and high-value targets fall easily into place, and high-value targets are restricted to those which are easy to kill. I further propose an additonal category for the high-threat, difficult-to-kill targets, which I call BST or "bullshit targets" and includes most traditional stationaries. The name "compass" originates from the "political compass", another (only semi-serious) classification scheme that similarly uses orthogonal axes to produce four categories.
+In this meme, I present a method of ranking enemies along two cartesian axes describing (1) how threatening the enemy is and (2) how easy the enemy is to kill. Thus, the popular categories of trash, large single targets, and high-value targets fall easily into place, and high-value targets are restricted to those which are easy to kill. I further propose an additonal category for the high-threat, difficult-to-kill targets, which I call BST or "bullshit targets" and includes most traditional stationaries. The name "compass" is from the "political compass", another (not really serious) classification scheme that similarly uses orthogonal axes to produce four categories.
 
-In the high-value target compass, both axes are rather subjective and contain significant variablity depending on mission context, team compositon, playstyles, custom difficulty adjustments, terrain, and other factors. Therefore, the placements I have shown in this particular meme should not be regarded as precise or binding. 
+In the high-value target compass, both axes are rather subjective and contain significant variability depending on mission context, team compositon, playstyles, custom difficulty adjustments, terrain, and other factors. Therefore, the placements I have shown in this particular meme should not be regarded as precise or binding. 
 
 Some factors which contribute to an enemy's threat level include:
 * Attack range of the enemy
@@ -37,11 +37,13 @@ Some factors which contribute to an enemy's difficulty-to-kill include:
 * Additional steps required to kill the enemy (such as hunting down vartok nodes, cycling multiple phases of bosses, visually identifying a cloaked Stalker, etc)
 * Tendency of the enemy to appear in large numbers (such as shockers or swarmers) which makes single-target weapons much less effective against them than specialized lingering AOE weapons
 
-Earlier, I mentioned that Scout is popularly assigned to high-value targets and can assist with bullshit targets. The role of the other classes is more varied. In classic team compositions, Driller handles the trash enemies while Gunner and Engineer flex across the non-trash categories, including assisting Scout with high-value targets if needed. However, even in this classic composition, the roles are not hard rules. Some difficulties spawn high-value targets in such numbers that Driller's primaries are actually best suited to dealing with them. Driller can also end up TCFing large numbers of large single targets such as praetorians and (I forgot to add them) sentinels. If Driller is downed or occupied elsewhere, Gunner and Engineer often still have some form of higher-cost trash clear such as grenades and breach cutter. Meanwhile, a huge array of nonstandard team compositions exist in which Gunner may instead be the main trash clear, or the task is split across several classes, or not all four classes are even present. It is up to the team in each varied case to plan ahead and make sure there is some way to deal with every enemy, even if the result does not adhere to popular conceptions of standard class roles.
+Earlier, I mentioned that Scout is popularly assigned to high-value targets and can assist with bullshit targets. The role of the other classes is more varied. In classic team compositions, Driller handles the trash enemies while Gunner and Engineer flex across the non-trash categories, including assisting Scout with high-value targets if needed. (In high difficulties, "if needed" basically means "all the time".) 
+
+However, even in this classic composition, the roles are not hard rules. Some difficulties spawn high-value targets in such numbers that Driller's primaries are actually best suited to dealing with them. Driller can also end up TCFing large numbers of LSTs such as praetorians. (Should we even call them large *single* targets in that case?) If Driller is downed or occupied elsewhere, Gunner and Engineer often still have some form of higher-cost trash clear such as grenades and breach cutter. Meanwhile, a huge array of nonstandard team compositions exist in which Gunner may instead be the main trash clear, or the task is split across several classes, or not all four classes are even present. It is up to the team in each varied case to plan ahead and make sure there is some way to deal with every enemy, even if the result does not adhere to popular conceptions of standard class roles.
 
 ## DRG Mechanics Iceberg
 
-DRG has many mechanics, many of which are not documented anywhere in the game itself and some of which are not even documented on [the official wiki](https://deeprockgalactic.wiki.gg/wiki/Deep_Rock_Galactic_Wiki). Additionally, players have devised strategies and techniques that are passed around through the community and tend to be learned over time, but are essentially learned through random encounter with community members. Thus, some are naturally less commonly known.
+DRG has many mechanics, many of which are not documented anywhere in the game itself and some of which are not even documented on [the official wiki](https://deeprockgalactic.wiki.gg/wiki/Deep_Rock_Galactic_Wiki). Additionally, players have devised strategies and techniques that are passed around through the community and are learned over time through random encounter with community members. Thus, some are naturally less well known.
 
 This iceberg is not comprehensive and I also am not at all confident about how well-known each item actually is. However, it was fun to think of many entries at varying levels of obscurity and try to place them.
 
@@ -55,11 +57,11 @@ This meme compares the AOE damage performance of the meta Minelayer build agains
 
 There is some missing information: This PGL build inflicts an amount of heat equal to the maximum damage and inflicts it across the entire radius, allowing it to consistently kill low-health enemies in a decent area given enough time for them to burn. It also does an extra 60 direct damage to an enemy if the grenade directly hits the enemy, and applies a guaranteed stun in the entire blast radius. So actually it's not as bad as it looks...
 
-Until you consider that Minelayer has over 5x the rate of fire and can cover its own reloads and has about 15x as much ammo. In fact a single magazine of Minelayer contains more than twice as many rounds as the entire ammo pool of the PGL build.
+Until you consider that Minelayer has over 5x the rate of fire and can cover its own reloads and has about 15x as much ammo. In fact a single magazine of Minelayer contains more than twice as many shots as the entire ammo pool of the PGL build.
 
 ## Ammo Overclock Alignment Chart
 
-In the end, everything is an ammo overclock. (Except Armor Break Module, nobody likes that one)
+In the end, everything is an ammo overclock. (Except Armor Break Module, that one is truly nothing)
 
 ![](img/ammo_overclock.png)
 
@@ -72,23 +74,23 @@ In each slot there was often more than one overclock fitting that description. F
 
 ## Weapon-for-the-upgrade Starter Pack
 
-DRG contains a number of upgrades or overclocks that define the power of the entire weapon. The upgrade isn't an add-on for the weapon. The entire weapon is an add-on for the upgrade.
+DRG contains a number of upgrades or overclocks that drive the power of the entire weapon. The upgrade isn't an add-on for the weapon. The entire weapon is an add-on for the upgrade.
 
 ![](img/drg_starter_pack.png)
 
-This meme was made for an earlier version of DRG, before damage stubby was buffed into a meta option and before the abysmally bad Turret Arc was reworked into Micro Conductor Add-On.
+This meme was made for an earlier version of DRG, before damage stubby was buffed into a meta option and before the abysmally bad Turret Arc was reworked into Micro Conductor Add-On. Also, the coilgun somehow manages to be still incredibly strong without the fear upgrade, but fear of course makes it even more broken.
 
 ## Moh's Scale of Loadout Hardness
 
-Provides a (rough, subjective) ranking of loadouts based on their power. Some players tend to avoid the most powerful options for various reasons (they invalidate some game mechanics, they feel boring to use personally, etc). Most players have a natural instinct to optimize their loadout to be good to some degree.
+Provides a (rough, subjective) ranking of loadout elements based on their power. Some players tend to avoid the most powerful options for various reasons (they invalidate some game mechanics, they feel boring to use personally, etc). Most players have a natural instinct to optimize their loadout to be good to some degree.
 
 ![](img/hardness.png)
 
 Some explanations in response to objections I have seen:
-* Some people do not understand why their favorite weapons, such as AI Stability Engine, Warthog, or RJ250 are not classed higher. These weapons, while solid, tend to lack the strengths of other weapons that compete for the same slot. For example, RJ250 has its upsides, but lacks the killing, defense, and pushing power that Breach Cutter has against non-trash enemies. Warthog has Turret Whip, which is okay in power but is heavily restricted by turret behavior and setup time, and lacks both the low-friction, flexible crowd clear of a dedicated AOE primary or the ranged burst DPS of a dedicated single-target primary.
+* Some people would question why their favorite weapons, such as AI Stability Engine, Warthog, or RJ250 are not classed higher. These weapons, while solid, tend to lack the strengths of other weapons that compete for the same slot. For example, RJ250 has its upsides, but lacks the killing, defense, and pushing power that Breach Cutter has against non-trash enemies. Warthog has Turret Whip, which is okay in power but is heavily restricted by turret behavior and setup time, and lacks both the low-friction, flexible crowd clear of a dedicated AOE primary and the ranged burst DPS of a dedicated single-target primary.
 * People may read an implied statement here that meta builds are not fun builds to play, due to them being different categories and due to the descriptions of meta builds not mentioning that they are fun. I do think meta builds can be as fun or more fun than those I have put in the "fun" categories, but whether being *too powerful* is less fun, and how powerful is too powerful, are up to your preferences. There is not a simple fixed relationship between the amount of fun and the amount of power. To me, the main criterion that lands a build in the "fun" categories (5 and 6) is that they have significant tradeoffs or weaknesses that meta builds do not, and therefore rely more on their fun value than meta builds do - not that they necessarily have a higher total fun level.
 * Yes, bunkering is not any particular upgrade or overclock that exists inside a loadout. However, it is often something that particular loadouts are built around.
-* I didn't mention ___! Yes, of course I don't have enough room or sufficiently strong opinions to place absolutely every loadout. Also, some loadouts exist across a broad range of the hardness scale. For example, Dash is widely considered the best of all perks, which might warrant a hard meta rank, but it is taken at very high rates on basically any loadout of level 4 and above.
+* I didn't mention ___! Yes, of course I don't have enough room or sufficiently strong opinions to place absolutely every loadout. Also, some options exist across a broad range of the hardness scale. For example, Dash is widely considered the best of all perks, which might warrant a hard meta rank, but it is taken at very high rates on basically any loadout of level 4 and above.
 
 ## Copypastas
 
