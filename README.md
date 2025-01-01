@@ -12,3 +12,8 @@ A collection of various analyses for the game Deep Rock Galactic.
 - [Cryo Cannon](cryo_cannon.md)
 - [Power Attack](power_attack.md)
 - [Zipline Analysis](zipline.md)
+
+Bonus content that features less technical analysis: 
+
+- [Beginner's Guide to Reviving](reviving.md)
+- [High Effort Memes](memes.md)
