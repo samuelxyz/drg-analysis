@@ -12,6 +12,7 @@ A collection of various analyses for the game Deep Rock Galactic.
 - [Cryo Cannon](cryo_cannon.md)
 - [Power Attack](power_attack.md)
 - [Zipline Analysis](zipline.md)
+- [LOK-1 Smart Rifle](lok1.md)
 
 Bonus content that features less technical analysis: 
 
