@@ -10,7 +10,7 @@ SMRT Trigger OS is an overclock introduced in Season 5 that allows you to gain b
 
 The upgrade tree of the weapon is in a rather sad state. Most tiers have preferred or strongly preferred options with a few specific edge cases.
 * In Tier 1: 
-  * Damage vs ammo, neither option leaves you with much total ammo so you might as well take damage and get better DPS. Ammo does give slightly more total damage but it's still not ideal. I suppose you can take it if you want. I will analyze the builds assuming you take damage, except for the standard ECR build which is not focused on single targets and takes ammo.
+  * Damage vs ammo, neither option leaves you with much total ammo so you might as well take damage and get better DPS. (6048 vs 5832 is less than 4% extra, or one extra grunt per resupply.) Most builds should probably take damage, except for the standard ECR build which is not focused on single targets and takes ammo.
 * In Tier 2: 
   * T2A (tight lock-on field, long range) is generally considered the best in that tier as it allows you to precisely specify which target you want to place locks on - obviously a useful capability for a single-target weapon. It also gives you a huge range. It is even useful for ECR to concentrate three locks onto a single target in order to activate the overclock's signature explosion - with a wider lock-on field, the locks tend to get scattered over multiple targets which can waste both time and ammo.
 * In Tier 3:
@@ -60,6 +60,8 @@ You can see there is quite significant variation depending on FPS. As I said abo
 
 The 10.06 effective rate of fire at 144 FPS for SMRT Trigger was obtained not by testing, but from the rounding-to-the-next frame theory. It's certainly between the tested results for 60fps and 6000fps, so it should be in the right neighborhood. Most people get better performance than I do on my potato setup, so I think this is a good FPS value on which to base build and gameplay analysis. Just, when I give results that involve timing, take them with a grain of salt.
 
+Anyway, for the columns in which there *are* known values, you can see that the SMRT build has a slightly more than 50% effective rate of fire advantage over Executioner. It also has an exactly 50% bigger magazine, while Executioner has exactly 50% more weakpoint damage per shot. So a magazine of each is really quite similar.
+
 ## General build comparison
 
 OK so how to analyze this weapon? For the graph below, I'll make some simplifying assumptions:
@@ -72,7 +74,7 @@ OK so how to analyze this weapon? For the graph below, I'll make some simplifyin
 
 This graph assumes you start holding the trigger at time 0. The last horizontal segment in each curve is a reload (with reload cancel). For slow-locking builds, the reload takes about as long as filling up the lock bar. 
 
-SMRT Trigger and Executioner are clearly the most reactive and have the highest DPS. You can see why the two of them are considered so much stronger than the base weapon. ECR is also considered strong, but obviously not as a single-target weapon, being more useful for its explosion which inflicts some AOE and fear. (Ideally you want to use bursts of 3 locks to spam explosions rather than full lock, but the 3-lock version of the graph went way off the right edge so I decided to just not show it. You can still full lock if you want to deal with a single target.) Seeker has the next lowest DPS, with less than half the burst of Executioner (though slightly more than half if you include the reload time.) 
+SMRT Trigger and Executioner are clearly the most reactive and have the highest DPS. You can see why the two of them are considered so much stronger than the base weapon. ECR is also considered strong, but obviously not as a single-target weapon, being more useful for its explosion which inflicts some AOE and fear. (Ideally you want to use bursts of 3 locks to spam explosions rather than full lock, but the 3-lock version of the graph went way off the right edge so I decided to just not show it. You can still full lock if you want to deal with a single target.) Seeker has the next lowest DPS, with less than half the dps of the best options.
 
 ## Different cases of Executioner (ft. SMRT Trigger)
 
@@ -80,30 +82,32 @@ Since SMRT and Exec are our top single-target contenders, let's look at them in 
 
 I have also added breakpoints (Haz6p4), though not accounting for enemy resistances/vulnerabilities to electricity or fire. Enemies with breakable heavy armor (Brundles, Stingtails) tend not to punch through until the second hit, so I have added one bullet's worth to their effective health.
 
-Note how T5A electricity loses a small bit of damage up front, but ends up slightly ahead over time. When combined with the power of electric slow, I think this makes 11111 usually worth taking over 11112. The exception is if you want to combo with some separate source of electricity, because then 11112 gives a much bigger damage boost (green line).
+Note how T5A electricity loses a small bit of damage up front, but ends up slightly ahead over time. When combined with the power of electric slow, I think this makes 11111 usually worth taking over 11112. The exception is if you want to combo with some separate source of electricity, because then 11112 gives a much bigger damage boost (shown in green).
 
 ![](img/lok1_exec.png)
 
 ### Executioner vs SMRT
 
-If I add a 0.2s human-error delay to Exec's mouse release, then SMRT consistently kills faster than Exec even when Exec is hitting weakpoints. (The exception is when 11112 Exec gets T3A and SMRT doesn't, which isn't a fair comparison. I added that Exec case more as a comparison against the other Exec cases.) 
+If I add a 0.2s human-error delay to Exec's mouse release, then SMRT consistently kills faster than Exec even when Exec is hitting weakpoints. (However, I haven't included the plot for this.) 
 
-When Exec isn't hitting weakpoints, it falls way behind. There are a few quite notable enemies where this is relevant, especially shellbacks. You can only one-mag a rolling Haz6p4 shellback with Exec if you happen to hit the weakpoint, or if you take 11112 and the shellback is on fire (rolling shellbacks are completely immune to electricity). 
+When Exec isn't hitting weakpoints, it falls way behind. There are a few quite notable enemies where this is relevant, especially shellbacks. You can only one-mag a rolling Haz6p4 shellback with Exec if you happen to hit weakpoint shots, or if you take 11112 and the shellback is on fire (rolling shellbacks are completely immune to electricity). 
 
-The tradeoff for SMRT's DPS and reactiveness is that as I mentioned at the beginning, SMRT Trigger OS doesn't get many massive bonuses to increase its total damage pool. So you'll have to pick your targets and be mindful of your pacing, especially in teams where resupplies are less plentiful. Still, it's way better than the base weapon and I think it deserves to have a reputation equal to Executioner's.
+Generally, SMRT kinda feels like a blend between Executioner and damage-build Stubby. Like Executioner, it has long range, armor break, ceiling leech scanning capability, etc, but like the Stubby, you can quickly flick around and kill targets almost as soon as your crosshair reaches them - very handy for self defense.
+
+The tradeoff for SMRT's DPS and reactiveness is that as I mentioned at the beginning, it doesn't get massive bonuses to increase its total damage pool. So you'll have to pick your targets and be mindful of your pacing, especially in teams where resupplies are less plentiful. Still, it's way better than the base weapon and I think it deserves to have a reputation comparable to Executioner's. 
 
 ## SMRT vs SMRT
 
-If you are particularly interested in SMRT Trigger, here is a further build comparison for SMRT specifically.
+If you are particularly interested in SMRT Trigger, here is a further build comparison for SMRT specifically. T5A electricity slightly reduces the damage output of the first burst compared to T5B, except on electric-weak enemies. However, T5A catches up well before the end of the magdump even on strong x3 weakpoints.
 
 ![](img/lok1_smrt.png)
 
 Featured builds:
 * **11121 SMRT**: A good pick. Damage, 4 locks, and electricity. This comes out with the highest DPS in most cases due to electric damage over time, plus has electric slow. Waiting out the full electric DOT grants a bit more than an extra shot's worth of damage. 
-* **11122 SMRT**: A good pick. Damage, 4 locks, no electricity. This is the best of all Engi primaries against rolling shellbacks (which are immune to electricity), and highly competitive with 11112 Executioner for other large targets that have some other source of electric status. Though, it's often harder to aim for things like Bulk weakpoints.
+* **11122 SMRT**: A good pick. Damage, 4 locks, no electricity. This is the best of all Engi primaries against rolling shellbacks (which are immune to electricity), and highly competitive with 11112 Executioner for other large targets that have some other source of electric status. Though, it's often hard to aim for fiddly targets like Bulk weakpoints, because SMRT's ability to curve shots is limited.
 * 21122 SMRT: I'm not sure about this one. Included here to show what happens when you take the ammo upgrade instead. Longer time to kill, slightly more ammo efficient, nothing too surprising.
-* 11112 SMRT: Not great. Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets more quickly, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
-  * If you take 11111, you can milk the electric DOT's full value more easily to get a bit more ammo efficiency. However, your time to kill on small enemies will be a lot slower if you want to really use the electric damage, and the attention cost is much higher. I don't recommend this strategy.
+* 11112 SMRT: Also questionable .Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets more quickly, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
+  * If you take 11111, you can milk the electric DOT's full value more easily to get a bit more ammo efficiency. However, your time to kill on small enemies will be a lot slower if you want to really use the electric damage, and the attention cost is much higher. I can't recommend this as a strong strategy, but I suppose it can be a fun minigame.
 
 ## SMRT Breakpoint Samples
 
@@ -124,7 +128,7 @@ The table below shows the number of shots taken to kill various bugs in combat t
 
 Conclusions:
 * 11122 is the most reliable build for one-magging a rolling Shellback
-* Electricity is notably better against Brundles (and presumably other tanky Mactera enemies)
+* Electricity is notably better against Brundles (and tanky non-electric-resistant enemies in general)
 * Despite outputting slightly less damage in the first burst, Electricity doesn't lose breakpoints on small enemies like grunts or spitters
 * Electricity can often let you save one shot on small targets if you're willing to wait for DOT, but as I noted in the previous section I don't think this is really worth it
 
