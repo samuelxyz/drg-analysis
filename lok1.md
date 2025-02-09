@@ -10,7 +10,7 @@ SMRT Trigger OS is an overclock introduced in Season 5 that allows you to gain b
 
 The upgrade tree of the weapon is in a rather sad state. Most tiers have preferred or strongly preferred options with a few specific edge cases.
 * In Tier 1: 
-  * Damage vs ammo, neither option leaves you with much total ammo so you might as well take damage and get better DPS. (6048 vs 5832 is less than 4% extra, or one extra grunt per resupply.) Most builds should probably take damage, except for the standard ECR build which is not focused on single targets and takes ammo.
+  * Damage vs ammo. Neither option leaves you with much total damage, so you might as well take the damage upgrade and get better DPS. (6048 vs 5832 is less than 4% extra, or one extra grunt per resupply.) Most builds should probably take damage, except for the standard ECR build which is not focused on single targets and takes ammo.
 * In Tier 2: 
   * T2A (tight lock-on field, long range) is generally considered the best in that tier as it allows you to precisely specify which target you want to place locks on - obviously a useful capability for a single-target weapon. It also gives you a huge range. It is even useful for ECR to concentrate three locks onto a single target in order to activate the overclock's signature explosion - with a wider lock-on field, the locks tend to get scattered over multiple targets which can waste both time and ammo.
 * In Tier 3:
@@ -21,7 +21,7 @@ The upgrade tree of the weapon is in a rather sad state. Most tiers have preferr
   * T4A (faster locks) is very good, increasing your effective rate of fire. 
   * T4B (more locks) is only marginally useful while making it harder to activate T5B (damage bonus at full lock). Exception for SMRT Trigger OS since it makes your lock-ons instant anyway, therefore just being a rough x2 rate of fire multiplier.
 * In Tier 5:
-  * T5A (electric DOT) is very good and can activate T3A (electric/fire synergy) on shots after the first. Also, the electric status immediately ticks at the instant it's applied, which helps make up for the missing T3A bonus on the first shot.
+  * T5A (electric DOT) is very good and can activate T3A (electric/fire synergy) on shots after the first. Also, the electric status immediately ticks at the instant it's applied, which helps make up for the missing T3A bonus on the first shot. It's 3 Electric damage every 0.25s for 3 seconds, and an 80% (x0.2) slow.
   * T5B (damage bonus at full lock) is also very good, and the choice between it and T5A mostly comes down to whether you expect to have a plentiful other source of electricity. Or even if you're only expecting to have bulks in IFG, it could be worth taking just for extra performance in that specific case. Up to you. T5B, like T3A, does not count toward breaking armor.
   * T5C (fear) barely applies enough fear to do anything and is competing with significant damage/utility upgrades. Oof
 
@@ -33,9 +33,9 @@ There are quite a lot of fiddly details that become annoying when trying to calc
   * There's a delay of ~0.22s before locks begin to be acquired
   * Locks are gradually placed on the target (lock time appears to be ROUNDED UP to the next whole number of frames, so this is FPS dependent. Locking on with Executioner at 30fps is 50% slower than at 90fps)
   * The gun waits for you to manually let go of the trigger, which you are almost certain to do a bit late (thus losing DPS) or a bit early (thus getting less than full locks and losing T5B/Executioner)
-  * The gun fires the locked shots in a burst (time between bursts is also ROUNDED UP to the next whole number of frames)
+  * The gun fires the locked shots in a burst (time between shots in the burst is also ROUNDED UP to the next whole number of frames)
   * There is a 0.2s delay before the start of the next cycle (or the start of the reload) due to the gun's actual rate of fire of 5 (which is the rof at which you can tapfire)
-  * Finally, SMRT Trigger throws much of this out the window, letting you hold down the button and locking on much faster and ditching the 0.2s rate of fire delay and having an extremely high burst rate of fire. There are additional anomalies with it that make it hard to figure out how to predict. Therefore, SMRT Trigger is best analyzed by just recording the game and timing the recordings. There's also the framerate variation to worry about.
+  * Finally, SMRT Trigger throws much of this out the window, letting you hold down the button and locking on much faster and ditching the 0.2s rate of fire delay and having an extremely high burst rate of fire. There are additional anomalies with it that make it hard to figure out how to predict. The rounding-to-next-frame method gets within 1 or 2 frames of actual gameplay recording results, but that's still barely enough to lock down the first digit of the effective rate of fire.
 * The following things do not change simultaneously and tend to be offset by a few frames from each other. The best approach is to pick one of these and use that one only:
   * The lock icon on the target
   * The lock bar on the left of the crosshair
@@ -106,7 +106,7 @@ Featured builds:
 * **11121 SMRT**: A good pick. Damage, 4 locks, and electricity. This comes out with the highest DPS in most cases due to electric damage over time, plus has electric slow. Waiting out the full electric DOT grants a bit more than an extra shot's worth of damage. 
 * **11122 SMRT**: A good pick. Damage, 4 locks, no electricity. This is the best of all Engi primaries against rolling shellbacks (which are immune to electricity), and highly competitive with 11112 Executioner for other large targets that have some other source of electric status. Though, it's often hard to aim for fiddly targets like Bulk weakpoints, because SMRT's ability to curve shots is limited.
 * 21122 SMRT: I'm not sure about this one. Included here to show what happens when you take the ammo upgrade instead. Longer time to kill, slightly more ammo efficient, nothing too surprising.
-* 11112 SMRT: Also questionable .Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets more quickly, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
+* 11112 SMRT: Also questionable. Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets more quickly, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
   * If you take 11111, you can milk the electric DOT's full value more easily to get a bit more ammo efficiency. However, your time to kill on small enemies will be a lot slower if you want to really use the electric damage, and the attention cost is much higher. I can't recommend this as a strong strategy, but I suppose it can be a fun minigame.
 
 ## SMRT Breakpoint Samples
