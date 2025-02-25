@@ -104,9 +104,9 @@ If you are particularly interested in SMRT Trigger, here is a further build comp
 
 Featured builds:
 * **11121 SMRT**: A good pick. Damage, 4 locks, and electricity. This comes out with the highest DPS in most cases due to electric damage over time, plus has electric slow. Waiting out the full electric DOT grants a bit more than an extra shot's worth of damage. 
-* **11122 SMRT**: A good pick. Damage, 4 locks, no electricity. This is the best of all Engi primaries against rolling shellbacks (which are immune to electricity), and highly competitive with 11112 Executioner for other large targets that have some other source of electric status. Though, it's often hard to aim for fiddly targets like Bulk weakpoints, because SMRT's ability to curve shots is limited.
+* **11122 SMRT**: A good pick. Damage, 4 locks, no electricity. This is the best of all Engi primaries against rolling shellbacks (which are immune to electricity), and better than 11121 for targets that have some other source of electric status, such as Bulks in IFG. In that case it's very similar in performance to 11112 Executioner. Though, with SMRT it's often hard to aim for fiddly targets like Bulk weakpoints, because SMRT's ability to curve shots is limited.
 * 21122 SMRT: I'm not sure about this one. Included here to show what happens when you take the ammo upgrade instead. Longer time to kill, slightly more ammo efficient, nothing too surprising.
-* 11112 SMRT: Also questionable. Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets more quickly, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
+* 11112 SMRT: Also questionable. Included here to show what happens when you take the 2-lock version of the gun. You can *sometimes* kill small targets earlier, but the net rate of fire works out to be lower. On moving targets with heavy armor, you are also less likely to keep hitting the same armor plate that you broke with an earlier shot, which decreases damage output. 
   * If you take 11111, you can milk the electric DOT's full value more easily to get a bit more ammo efficiency. However, your time to kill on small enemies will be a lot slower if you want to really use the electric damage, and the attention cost is much higher. I can't recommend this as a strong strategy, but I suppose it can be a fun minigame.
 
 ## SMRT Breakpoint Samples
@@ -128,7 +128,7 @@ The table below shows the number of shots taken to kill various bugs in combat t
 
 Conclusions:
 * 11122 is the most reliable build for one-magging a rolling Shellback
-* Electricity is notably better against Brundles (and tanky non-electric-resistant enemies in general)
+* Electricity is notably better against Brundles, and just slightly better against tanky non-electric-resistant enemies in general (as long as there is no IFG involved)
 * Despite outputting slightly less damage in the first burst, Electricity doesn't lose breakpoints on small enemies like grunts or spitters
 * Electricity can often let you save one shot on small targets if you're willing to wait for DOT, but as I noted in the previous section I don't think this is really worth it
 
