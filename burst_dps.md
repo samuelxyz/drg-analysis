@@ -22,7 +22,11 @@ Winners:
 - Second highest is **axe cancel**
 - When considering weaknesses and status, the highest DPS is probably using VB to hit a weakpoint of something that has maximum multipliers (conductive thermals, MFD, IFG, critical weakness, etc). Though, most enemies would be oneshot so it maybe isn't finite DPS.
 
+## Errata
+
 An older version of these plots overestimated the DPS of the sludge pump because I neglected the 0.25s delay before you could start charging the next shot. This has been corrected and I have also updated the wiki.gg page to make it clearer. Alas, Sludge Blast is not as insane as we all thought.
+
+The leadburster damage values are only rough estimates, as there is significant variation depending on exactly how the throw works out (number of bullets that hit, distance each bullet travels before it hits, etc). Also, the leadburster applies a damage-over-time effect that ticks only once and does 100 damage regardless of how many bullets or leadbursters hit. This effect lasts 0.7 seconds, after which it can be re-applied.
 
 ![alt text](img/drg_burst_damage_detail.png)
 
