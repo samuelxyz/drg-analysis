@@ -28,13 +28,13 @@ Leadbursters have a range-based damage increase; they do 2, 20, or 50 damage per
 
 ![](img/leadburster_spray.png)
 
-## Overtuned Feed Mechanism
+## Overclocked Firing Mechanism
 
 Brief notes:
 - originated from discord conversation in PDRG involving the idea that maybe OFM is really good actually
 - builds vary
 - magazine size is a significant breakpoint
-- weird to a spitballer or barrager without first cryobolting it. though optimizing dps against an already frozen enemy is not super necessary
+- weird to shoot a spitballer or barrager without first cryobolting it. though optimizing dps against an already frozen enemy is not super necessary
 - wp upgrade on gk2 is contentious because it competes with armor break (though neither one works on frozen targets)
 - bom requires a separate activation method
 - most of these cannot kill a baller before the baller shoots
