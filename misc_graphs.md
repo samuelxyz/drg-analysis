@@ -24,7 +24,7 @@ Leadbursters have a range-based damage increase; they do 2, 20, or 50 damage per
 
 ![](img/leadburster_spray.png)
 
-## Overtuned Feed Mechanism
+## Overclocked Firing Mechanism
 
 Brief notes:
 - originated from discord conversation in PDRG involving the idea that maybe OFM is really good actually
