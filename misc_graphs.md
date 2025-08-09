@@ -12,10 +12,6 @@ There is a common and unsubstantiated idea that repellent doubles the pathing co
 
 ![](img/repel_strength.png)
 
-## Bullets of Mercy
-
-![](img/bom.png)
-
 ## Damage Stubby
 
 ![](img/dmg_stubby.png)
@@ -34,7 +30,7 @@ Brief notes:
 - originated from discord conversation in PDRG involving the idea that maybe OFM is really good actually
 - builds vary
 - magazine size is a significant breakpoint
-- weird to a spitballer or barrager without first cryobolting it. though optimizing dps against an already frozen enemy is not super necessary
+- weird to shoot a spitballer or barrager without first cryobolting it. though optimizing dps against an already frozen enemy is not super necessary
 - wp upgrade on gk2 is contentious because it competes with armor break (though neither one works on frozen targets)
 - bom requires a separate activation method
 - most of these cannot kill a baller before the baller shoots

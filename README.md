@@ -7,6 +7,7 @@ A collection of various analyses for the game Deep Rock Galactic.
 Weapon deep dives:
 
 - [BUILD BREAKDOWN: Scout's Jury-Rigged Boomstick](boomstick_analysis.md)
+- [Bullets of Mercy and the stun upgrade](bom_stun.md)
 - [Conductive Thermals](conductive_thermals.md)
 - [Cryo Cannon](cryo_cannon.md)
 - [LOK-1 Smart Rifle](lok1.md)
