@@ -20,11 +20,11 @@ Summary: Start with **32112**. If you play a few games and find that you want mo
 
 ### Tier 1: Rate of Fire / Less Heat per Shot / Higher Velocity
 
-- **Rate of fire** is fine, giving better burst DPS and letting you heat up sooner, in exchange for requiring a bit more timing precision to avoid overheating. If option 3 didn't exist, this would be the next best choice.
+- **Rate of fire** is fine, giving better burst DPS and letting you heat up sooner, in exchange for requiring a bit more timing precision to avoid overheating. If you care more about stationary targets than moving targets, this is a solid DPS upgrade.
 - **Less heat per shot** is a bad match for TEF - it allows you to get longer bursts, but also makes it painfully slow to heat up into the zone where your DPS is actually good. I don't recommend this.
 - **Double projectile velocity** feels great. The base drak projectile velocity is quite slow, making it difficult to track targets. Also, the slow base speed means it takes a moment for shots to reach your target, which increases time to kill and makes it easy to accidentally waste extra shots on overkilling. This upgrade increases the speed from "dismal" to "satisfactory".
 
-I strongly recommend option 3: **faster projectiles**.
+I strongly recommend option 3: **faster projectiles**, though if you want to mostly shoot stationary enemies, **rate of fire** is a good alternative.
 
 ### Tier 2: Ammo / Damage
 
