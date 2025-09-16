@@ -45,7 +45,7 @@ Enemies where focus shots are better in all ways than hipfire include extremely 
 * Rockpox enemies of any kind
 * Shellback
 * Stalker (? hipfire may be better but 400-500 health makes hipfire vs focus pretty close)
-* Stingtail
+* Stingtail (also pretty close)
 * Tanky stationaries of any kind - breeder, nexus, spitballer, barrager
 
 | Enemy            | Health (5p4) | Health hitting WP |
@@ -61,10 +61,10 @@ Enemies where focus shots are better in all ways than hipfire include extremely 
 | Sentinel         | 675          | 450               |
 | Shellback        | 675          | 337.5             |
 | Stalker          | 432 or 540** | 216               |
-| Stingtail        | 900          | 450               |
+| Stingtail        | 480          | 240               |
 | Warden           | 1200         | 400               |
 
-*Goo bomber weakpoints are x3 but break after taking 50 base damage, meaning one MFD hipfire each. 940 is the damage you would need to spend to break each weakpoint + finish off the body, all with un-buffed hipfires.
+*Goo bomber weakpoints are x3 but break after taking 60 base damage in Hazard 5, meaning one MFD hipfire each. 940 is the damage you would spend to break each weakpoint then finish off the body, all with un-buffed hipfires. 400 is the absolute best case taking full advantage of weakpoints, which is not achievable with MFD M1000 alone.
 
 **Stalkers have 432 base health but also have unbreakable armor covering much of their body that blocks 20% of damage.
 
