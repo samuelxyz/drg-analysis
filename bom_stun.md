@@ -8,7 +8,7 @@ Bullets of Mercy (BoM or BOM) is an overclock for the GK2 that gives a x1.5 dama
 
 This used to be pretty widely considered the top overclock for the GK2, but eventually AI Stability Engine (AISE) got buffed. It was also later discovered that Overclocked Firing Mechanism (OFM) had been kinda slept on.
 
-For a comparison of these and a few other scout primary options, see this graph:
+For a comparison of these and a few other scout primary options, see the following graph:
 
 ![](img/ofm_3.png)
 
@@ -24,7 +24,7 @@ AI Stability Engine is a bit less bursty, but can spit out more damage before re
 * Tier 4: Weakpoint vs armor break. Armor break is very useful and widens your effective target pool. If your secondary or teammates can deal with armored enemies though, the weakpoint upgrade is another x1.2 damage and ammo efficiency boost. Which one is better depends on what you plan to shoot.
 * Tier 5: See next section.
 
-Below: Tier 1 rate of fire vs relolad speed.
+Below: Tier 1 rate of fire vs reload speed.
 
 ![](img/bom.png)
 
